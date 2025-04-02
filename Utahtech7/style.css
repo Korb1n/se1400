@@ -226,3 +226,27 @@ nav a:hover {
             display: none;
         }
     }
+    table {
+        margin: 0 auto;
+        border: 1px solid #424242;
+        width: 100%;
+        border-collapse: collapse;
+    }
+    
+    td, th {
+        padding: 5px;
+        border: 1px solid #424242;
+    }
+    
+    td {
+        text-align: center;
+    }
+    
+    .text {
+        text-align: left;
+    }
+    
+    tr:nth-of-type(even) {
+        background-color: #F3F3F3;
+    }
+    
