@@ -181,72 +181,73 @@ nav a:hover {
         display: grid;
         grid-template-columns: 1fr repeat(6, minmax(0, 150px)) 1fr;
     }
+}
 
-    @media only screen and (max-width: 900px) {
-        nav {
-            grid-row: 2 / 3;
-            grid-column: 1 / 5;
-            position: static;
-        }
-
-        nav ul {
-            flex-flow: column nowrap;
-        }
-
-        #homehero,
-        #studenthero,
-        #facultyhero {
-            grid-row: 2 / 3;
-            grid-column: 5 / 8;
-            height: auto;
-        }
-
-        main img {
-            float: none;
-            width: 100%;
-            height: auto;
-            padding-left: 0px;
-        }
+@media only screen and (max-width: 900px) {
+    nav {
+        grid-row: 2 / 3;
+        grid-column: 1 / 5;
+        position: static;
     }
 
-    @media only screen and (max-width: 600px) {
-        header h1 {
-            background-image: none;
-            text-align: center;
-        }
-
-        nav {
-            grid-row: 2 / 3;
-            grid-column: 1 / -1;
-        }
-
-        #homehero,
-        #studenthero,
-        #facultyhero {
-            display: none;
-        }
+    nav ul {
+        flex-flow: column nowrap;
     }
-    table {
-        margin: 0 auto;
-        border: 1px solid #424242;
+
+    #homehero,
+    #studenthero,
+    #facultyhero {
+        grid-row: 2 / 3;
+        grid-column: 5 / 8;
+        height: auto;
+    }
+
+    main img {
+        float: none;
         width: 100%;
-        border-collapse: collapse;
+        height: auto;
+        padding-left: 0px;
     }
-    
-    td, th {
-        padding: 5px;
-        border: 1px solid #424242;
-    }
-    
-    td {
+}
+
+@media only screen and (max-width: 600px) {
+    header h1 {
+        background-image: none;
         text-align: center;
     }
-    
-    .text {
-        text-align: left;
+
+    nav {
+        grid-row: 2 / 3;
+        grid-column: 1 / -1;
     }
-    
-    tr:nth-of-type(even) {
-        background-color: #F3F3F3;
+
+    #homehero,
+    #studenthero,
+    #facultyhero {
+        display: none;
     }
-    
+}
+
+table {
+    margin: 0 auto;
+    border: 1px solid #424242;
+    width: 100%;
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 5px;
+    border: 1px solid #424242;
+}
+
+td {
+    text-align: center;
+}
+
+.text {
+    text-align: left;
+}
+
+tr:nth-of-type(even) {
+    background-color: #F3F3F3;
+}
