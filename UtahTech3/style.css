@@ -85,13 +85,16 @@ body {
   background-position: center;
 }
 #facultyhero {
-  width: 100%;
-  height: 300px;
-  background-image: url('facultyhero.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 300px;
+    background-image: url('facultyhero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
+
 nav a {
   text-decoration: none;
 }
