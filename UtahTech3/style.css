@@ -85,6 +85,7 @@ body {
   background-position: center;
 }
 #facultyhero {
+  width: 100%;
   height: 300px;
   background-image: url('facultyhero.jpg');
   background-size: cover;
