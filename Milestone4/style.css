@@ -12,16 +12,13 @@
 }
 
 #menu-bar {
-font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #middle-row {
-font-family:'Times New Roman', Times, serif;
+    font-family: 'Times New Roman', Times, serif;
 }
 
 #secondtolastrow {
     height: 100%;
-}
-
-#bottom-row {
 }
