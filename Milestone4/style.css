@@ -1,0 +1,32 @@
+#page {
+    display: grid;
+    grid-template-columns: 1fr 6fr 1fr;
+    grid-template-rows: 100px 150px minmax(300px, 1fr) 100px;
+
+}
+
+#left-column,
+#right-column {
+    background-color: #800080;
+    grid-row: span 4;
+
+}
+
+#menu-bar {
+    background-color: #0000FF;
+
+}
+
+#middle-row {
+    background-color: #FFA500;
+
+}
+
+#secondtolastrow {
+    background-color: #F30606;
+    height: 100%;
+}
+
+#bottom-row {
+    background-color: #0000FF;
+}
