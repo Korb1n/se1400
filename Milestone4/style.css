@@ -7,26 +7,21 @@
 
 #left-column,
 #right-column {
-    background-color: #800080;
     grid-row: span 4;
 
 }
 
 #menu-bar {
-    background-color: #0000FF;
-
+font-family:'Times New Roman', Times, serif;
 }
 
 #middle-row {
-    background-color: #FFA500;
-
+font-family:'Times New Roman', Times, serif;
 }
 
 #secondtolastrow {
-    background-color: #F30606;
     height: 100%;
 }
 
 #bottom-row {
-    background-color: #0000FF;
 }
