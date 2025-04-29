@@ -37,3 +37,12 @@
     font-family: 'Times New Roman', Times, serif;
     font-size: larger
 };
+
+#bottomrow{
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
