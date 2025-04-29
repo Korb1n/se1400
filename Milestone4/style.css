@@ -38,7 +38,7 @@
     font-size: larger
 };
 
-#bottomrow{
+#bottom-row{
     align-items: center;
     justify-content: center;
     flex-direction: column;
