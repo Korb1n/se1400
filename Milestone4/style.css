@@ -29,12 +29,11 @@
     height: 100%;
 
 }
-#secondtolastrow, img{
+#secondtolastrow{
     align-items: center;
     justify-content: center;
-}
-#secondtolastrow, div{
-    align-items: center;
-    font-family:'Times New Roman', Times, serif;
+    flex-direction: column;
+    display: flex;
+    font-family: 'Times New Roman', Times, serif;
     font-size: larger;
 }
