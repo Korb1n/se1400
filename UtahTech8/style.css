@@ -95,6 +95,7 @@ main {
     grid-row: 3 / 4;
     grid-column: 2 / -2;
 }
+
 table {
     margin: 0 auto;
     border: 1px solid #424242;
@@ -102,7 +103,8 @@ table {
     border-collapse: collapse;
 }
 
-td, th {
+td,
+th {
     padding: 5px;
     border: 1px solid #424242;
 }
@@ -117,4 +119,22 @@ td {
 
 tr:nth-of-type(even) {
     background-color: #F3F3F3;
+}
+
+video {
+    float: right;
+    margin-right: 2em;
+}
+
+@media screen and (max-width: 900px) {
+    video {
+        float: none;
+        margin: 0;
+        width: 100%;
+        height: auto;
+    }
+}
+
+nav a {
+    transition: background-color 0.5s ease-out;
 }
