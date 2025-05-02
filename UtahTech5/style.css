@@ -156,3 +156,10 @@ nav a:hover {
         1fr;           
     }
   }
+  #heroimage {
+    text-align: center;
+    padding: 1rem 0;
+    background: none;
+    grid-row: 3 / 4;
+    grid-column: 2 / -2;
+  }
