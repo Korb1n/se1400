@@ -104,6 +104,9 @@ main{
     margin: 0;
     padding: 0;
 }
+a{
+    text-decoration: none;
+}
 nav a {
     text-decoration: none;
     color: #FFFFFF;
