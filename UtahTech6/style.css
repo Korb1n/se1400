@@ -182,3 +182,76 @@ nav a:hover {
         padding-left: 0px;
     }
 }
+
+#alumnihero {
+    background-image: url("../alumnihero.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    height: 300px;
+    grid-row: 3 / 4;
+    grid-column: 1 / -1;
+    margin: 0;
+    padding: 0;
+}
+
+/* Form Styling */
+form {
+    display: grid;
+    grid-template-rows: auto;
+    grid-template-columns: 200px 1fr;
+    gap: 0.75rem;
+    width: 100%;
+}
+
+input, textarea {
+    font-size: 1rem;
+    padding: 10px;
+    color: #666666;
+    background-color: #fafafa;
+    border: none;
+}
+
+input:focus, textarea:focus {
+    outline: none;
+    background-color: #f0f0f0;
+}
+
+label {
+    padding: 10px;
+    text-align: right;
+}
+
+#mySubmit {
+    width: 10rem;
+    grid-column: 2 / 3;
+}
+
+/* Existing media query updated */
+@media only screen and (max-width: 900px) {
+  nav {
+    grid-row: 2 / 3;
+    grid-column: 1 / 5;
+    position: static;
+  }
+
+  nav ul {
+    flex-flow: column nowrap;
+  }
+
+  #homehero,
+  #studenthero,
+  #facultyhero,
+  #alumnihero {
+    grid-row: 2 / 3;
+    grid-column: 5 / 8;
+    height: auto;
+  }
+
+  main img {
+    float: none;
+    width: 100%;
+    height: auto;
+    padding-left: 0px;
+  }
+}
